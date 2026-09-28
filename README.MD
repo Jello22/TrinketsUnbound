@@ -2,18 +2,17 @@
 
 Twin Trinkets reworks Valheim's trinkets into always-active passive equipment and allows you to equip two trinkets at the same time.
 
-Instead of building adrenaline to activate a trinket effect, each trinket provides its own passive bonus for as long as it is equipped.
+No more building adrenaline to activate a trinket effect, each trinket provides its own passive bonus for as long as it is equipped.
 
 ## Features
 
 - Equip up to two trinkets at once
 - Replaces trinket adrenaline effects with passive bonuses
 - Each trinket has its own unique passive effect
-- Passive bonuses are shown directly on item tooltips
 - Prevents equipping two copies of the same trinket
 - All passive values are configurable
 - ServerSync support for multiplayer
-- Optional AzuExtendedPlayerInventory support
+- Compatible with AzuEPI 
 - Works without an equipment inventory mod
 
 ## How It Works
@@ -30,20 +29,25 @@ You cannot equip two copies of the same trinket at the same time.
 
 ## Passive Trinkets
 
-Each vanilla trinket has been given a passive bonus.
+Each vanilla trinket has been given a passive bonus.  The bonus is shown on the tooltip as well as compenduim.
 
-Examples include:
-
-- Increased health, stamina, or eitr regeneration
-- Increased armour
-- Increased movement or swim speed
-- Reduced stamina costs
-- Increased weapon or magic skills
-- Increased physical damage
-- Improved blocking and parrying
-- Physical damage resistance
-
-The exact effect and values are shown on each trinket's tooltip.
+| Trinket | Passive Effect |
+|---|---|
+| Heart of the Forest | +15% Health Regeneration |
+| Bronze Pendant | +15% Stamina Regeneration |
+| Iron Brooch | +10 Armour |
+| Nimble Anklet | +15% Movement Speed |
+| Fins of Destiny | +25% Swim Speed, -40% Swim Stamina Usage |
+| Wolf Sight | +10 Bow Skill, +10 Spear Skill, +6% Pierce Damage |
+| Crystal Heart | Slightly Resistant to Blunt, Slash, and Pierce |
+| Bracelets of the Brave | +10 Club Skill, +7% Blunt Damage |
+| Evasion Mantle | -25% Block Stamina Usage, +25% Parry Bonus, +10 Dodge Skill |
+| Pulsating Earrings | +15% Eitr Regeneration |
+| Resounding Shackle | +7% Slash Damage |
+| Jörmundling | +10 Elemental Magic, +10 Blood Magic |
+| Brimstone | +7% Blunt, Slash, and Pierce Damage |
+| Neckstabber | -10% Run Stamina Usage, -10% Attack Stamina Usage, +10 Armour, +10% Health Regeneration |
+| Witch Crown | +10% Health, Stamina, and Eitr Regeneration |
 
 ## Configuration
 
@@ -69,14 +73,10 @@ When AzuEPI is installed, Twin Trinkets adds a dedicated **Trinket II** equipmen
 
 Without AzuEPI, Twin Trinkets works normally using Valheim's standard inventory and equipment controls.
 
-## Requirements
-
-- BepInEx 5.4.2351
-
-AzuExtendedPlayerInventory is **not required**.
-
 ## Installation
+- Install with Gale Mod Manager!
 
+Manual installation
 1. Install BepInEx.
 2. Place `TwinTrinkets.dll` in your `BepInEx/plugins` folder.
 3. Start the game.
