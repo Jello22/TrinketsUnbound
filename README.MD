@@ -71,7 +71,7 @@ Without AzuEPI, Twin Trinkets works normally using Valheim's standard inventory 
 
 ## Requirements
 
-- BepInEx 5
+- BepInEx 5.4.2351
 
 AzuExtendedPlayerInventory is **not required**.
 
