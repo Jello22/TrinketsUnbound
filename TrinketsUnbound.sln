@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrinketsUnbound", "TrinketsUnbound\TrinketsUnbound.csproj", "{AED677F9-5DCA-49FB-AE40-24B259CC1471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AED677F9-5DCA-49FB-AE40-24B259CC1471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED677F9-5DCA-49FB-AE40-24B259CC1471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED677F9-5DCA-49FB-AE40-24B259CC1471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED677F9-5DCA-49FB-AE40-24B259CC1471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
