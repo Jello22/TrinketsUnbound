@@ -1,6 +1,6 @@
-﻿# Twin Trinkets
+﻿# Trinkets Unbound
 
-Twin Trinkets reworks Valheim's trinkets into always-active passive equipment and allows you to equip two trinkets at the same time.
+Trinkets Unbound reworks Valheim's trinkets into passive equipment and allows you to equip two trinkets at the same time.
 
 No more building adrenaline to activate a trinket effect, each trinket provides its own passive bonus for as long as it is equipped.
 
@@ -13,7 +13,7 @@ No more building adrenaline to activate a trinket effect, each trinket provides 
 - All passive values are configurable
 - ServerSync support for multiplayer
 - Compatible with AzuEPI 
-- Works without an equipment inventory mod
+- Works with Vanilla inventory
 
 ## How It Works
 
@@ -59,7 +59,7 @@ Crystal Heart's physical resistance can also be configured using Valheim's nativ
 
 ## Multiplayer
 
-Twin Trinkets uses ServerSync.
+Trinkets Unbound uses ServerSync.
 
 By default, the server controls the gameplay configuration so everyone uses the same trinket values.
 
@@ -69,16 +69,21 @@ Server administrators can change the passive values to suit their server.
 
 AzuExtendedPlayerInventory is **optional**.
 
-When AzuEPI is installed, Twin Trinkets adds a dedicated **Trinket II** equipment slot alongside AzuEPI's normal trinket slot.
+When AzuEPI is installed, Trinkets Unbound adds a dedicated **Trinket II** equipment slot alongside AzuEPI's normal trinket slot.
 
-Without AzuEPI, Twin Trinkets works normally using Valheim's standard inventory and equipment controls.
+Without AzuEPI, Trinkets Unbound works normally using Valheim's standard inventory and equipment controls.
 
 ## Installation
 - Install with Gale Mod Manager!
 
 Manual installation
 1. Install BepInEx.
-2. Place `TwinTrinkets.dll` in your `BepInEx/plugins` folder.
+2. Place `TrinketsUnbound.dll` in your `BepInEx/plugins` folder.
 3. Start the game.
 
-For multiplayer servers, install Twin Trinkets on both the server and connecting clients.
+For multiplayer servers, install Trinkets Unbound on both the server and connecting clients.
+
+## Thanks
+Big thanks to Azumatt for the AzuEPI and the API that goes along with it.  Also thanks for his docuemtation, videos, and other resources that helped me alogn the way
+
+Shoutout to a lot of the other folks at Odin+
