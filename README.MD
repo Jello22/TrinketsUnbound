@@ -1,14 +1,14 @@
 ﻿# Trinkets Unbound
 
-Trinkets Unbound reworks Valheim's trinkets into passive equipment and allows you to equip two trinkets at the same time.
+Trinkets Unbound reworks Valheim's trinkets into passive equipment and allows you to equip two trinkets at the same time.  Inspired by the trinkets from WoW and the fact that adrenaline 
+system just felt me to me.
 
-No more building adrenaline to activate a trinket effect, each trinket provides its own passive bonus for as long as it is equipped.
+No more building adrenaline to activate a trinket effect, each trinket provides its own passive bonus based off the original effects.
 
 ## Features
 
 - Equip up to two trinkets at once
 - Replaces trinket adrenaline effects with passive bonuses
-- Each trinket has its own unique passive effect
 - Prevents equipping two copies of the same trinket
 - All passive values are configurable
 - ServerSync support for multiplayer
@@ -19,7 +19,7 @@ No more building adrenaline to activate a trinket effect, each trinket provides 
 
 Trinkets are equipped normally from your inventory.
 
-Your first trinket becomes **Trinket I** and your second becomes **Trinket II**.
+Your first trinket uses the normal vanilla **Trinket slot** and your second becomes **Trinket II**.
 
 If both are occupied, equipping another trinket replaces Trinket II.
 
@@ -29,7 +29,8 @@ You cannot equip two copies of the same trinket at the same time.
 
 ## Passive Trinkets
 
-Each vanilla trinket has been given a passive bonus.  The bonus is shown on the tooltip as well as compenduim.
+Each vanilla trinket has been given a passive bonus.  The bonus is shown on the tooltip as well as compendium.  These are the default values and first pass
+I am not claiming that these are not all balanced some may be over or under powered.
 
 | Trinket | Passive Effect |
 |---|---|
@@ -59,11 +60,7 @@ Crystal Heart's physical resistance can also be configured using Valheim's nativ
 
 ## Multiplayer
 
-Trinkets Unbound uses ServerSync.
-
-By default, the server controls the gameplay configuration so everyone uses the same trinket values.
-
-Server administrators can change the passive values to suit their server.
+Trinkets Unbound uses ServerSync.  Both server and clients need the mod installed
 
 ## AzuExtendedPlayerInventory
 
@@ -87,3 +84,6 @@ For multiplayer servers, install Trinkets Unbound on both the server and connect
 Big thanks to Azumatt for the AzuEPI and the API that goes along with it.  Also thanks for his docuemtation, videos, and other resources that helped me alogn the way
 
 Shoutout to a lot of the other folks at Odin+
+
+## Future 
+Look to do some configuration options to incorporate modded trinkets 
