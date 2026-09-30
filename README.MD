@@ -1,9 +1,14 @@
 ﻿# Trinkets Unbound
 
 Trinkets Unbound reworks Valheim's trinkets into passive equipment and allows you to equip two trinkets at the same time.  Inspired by the trinkets from WoW and the fact that adrenaline 
-system just felt me to me.
+system just felt meh to me.
 
-No more building adrenaline to activate a trinket effect, each trinket provides its own passive bonus based off the original effects.
+No more building adrenaline to activate a trinket effect, each trinket provides its own passive bonus based off the original effects.  
+
+
+With the end goal of being able to pick the two trinkets that best fit your play style without being two overpowered or tanky.  Or configure it so it does just that if you want.
+
+## THIS IS MOD IS A WORK IN PROGRESS 
 
 ## Features
 
