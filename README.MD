@@ -74,5 +74,3 @@ Big thanks to Azumatt for the AzuEPI and the API that goes along with it.  Also 
 
 Shoutout to a lot of the other folks at Odin+
 
-## Future 
-Look to do some configuration options to incorporate modded trinkets 
