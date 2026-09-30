@@ -8,31 +8,23 @@ No more building adrenaline to activate a trinket effect, each trinket provides 
 
 With the end goal of being able to pick the two trinkets that best fit your play style without being two overpowered or tanky.  Or configure it so it does just that if you want.
 
-## THIS IS MOD IS A WORK IN PROGRESS 
+## THIS IS MOD IS A WORK IN PROGRESS CURRENTLY DOES NOT SUPPORT MODDED TRINKETS
 
-## Features
+## Usage
 
-- Equip up to two trinkets at once
-- Replaces trinket adrenaline effects with passive bonuses
-- Prevents equipping two copies of the same trinket
-- All passive values are configurable
-- ServerSync support for multiplayer
-- Compatible with AzuEPI 
-- Works with Vanilla inventory
+-  Trinkets are equipped normally from your inventory.  Craft a trinket see the effects in the tooltip or compendium.
 
-## How It Works
+-  Your first trinket uses the normal vanilla **Trinket slot** and your second becomes **Trinket II**.
 
-Trinkets are equipped normally from your inventory.
+-  If both are occupied, equipping another trinket replaces Trinket II.
 
-Your first trinket uses the normal vanilla **Trinket slot** and your second becomes **Trinket II**.
+-  Removing Trinket I does not automatically move Trinket II into its place.
 
-If both are occupied, equipping another trinket replaces Trinket II.
+- You cannot equip two copies of the same trinket at the same time.
 
-Removing Trinket I does not automatically move Trinket II into its place.
-
-You cannot equip two copies of the same trinket at the same time.
-
-## Passive Trinkets
+-  Compatible with [AzuEpi](https://valheim.hexium.gg/mods/Azumatt/AzuExtendedPlayerInventory) not tested with other equipment managers could work but that would be on you to figure out.
+   AzuEPI is an optional mod again this will function with the vanilla inventory.
+## Default Passive Values
 
 Each vanilla trinket has been given a passive bonus.  The bonus is shown on the tooltip as well as compendium.  These are the default values and first pass
 I am not claiming that these are not all balanced some may be over or under powered.
@@ -66,14 +58,6 @@ Crystal Heart's physical resistance can also be configured using Valheim's nativ
 ## Multiplayer
 
 Trinkets Unbound uses ServerSync.  Both server and clients need the mod installed
-
-## AzuExtendedPlayerInventory
-
-AzuExtendedPlayerInventory is **optional**.
-
-When AzuEPI is installed, Trinkets Unbound adds a dedicated **Trinket II** equipment slot alongside AzuEPI's normal trinket slot.
-
-Without AzuEPI, Trinkets Unbound works normally using Valheim's standard inventory and equipment controls.
 
 ## Installation
 - Install with Gale Mod Manager!
