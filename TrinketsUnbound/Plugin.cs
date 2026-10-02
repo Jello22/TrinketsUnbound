@@ -15,9 +15,7 @@ namespace TrinketsUnbound
         public const string PluginVersion = "0.2.0";
 
         internal static ManualLogSource Log = null!;
-
-        private Harmony _harmony = null!;
-
+        private Harmony? _harmony;
         private void Awake()
         {
             Log = Logger;
@@ -27,7 +25,7 @@ namespace TrinketsUnbound
             AzuEpiIntegration.Initialize();
 
             _harmony = new Harmony(PluginGuid);
-            _harmony.PatchAll();
+            _harmony.PatchAll(typeof(Plugin).Assembly);
 
             Log.LogInfo(
                 "Trinkets Unbound loaded.");
