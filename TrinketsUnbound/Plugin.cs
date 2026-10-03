@@ -12,7 +12,7 @@ namespace TrinketsUnbound
     {
         public const string PluginGuid = "jello.trinketsunbound";
         public const string PluginName = "Trinkets Unbound";
-        public const string PluginVersion = "0.2.0";
+        public const string PluginVersion = "0.3.0";
 
         internal static ManualLogSource Log = null!;
         private Harmony? _harmony;

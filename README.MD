@@ -1,12 +1,9 @@
 ﻿# Trinkets Unbound
 
-Trinkets Unbound reworks Valheim's trinkets into passive equipment and allows you to equip two trinkets at the same time.  Inspired by the trinkets from WoW and the fact that adrenaline 
-system just felt meh to me.
-
-No more building adrenaline to activate a trinket effect, each trinket provides its own passive bonus based off the original effects.  
+Trinkets Unbound reworks Valheim's vanilla trinkets into passive equipment and lets you equip two at once. Inspired by WoW-style trinkets and a desire to move away from the adrenaline system.
+Mix and match two trinkets to complement your playstyle without becoming overpowered—or adjust the configurable values and throw balance out the window.
 
 
-With the end goal of being able to pick the two trinkets that best fit your play style without being two overpowered or tanky.  Or configure it so it does just that if you want.
 
 ## THIS IS MOD IS A WORK IN PROGRESS CURRENTLY DOES NOT SUPPORT MODDED TRINKETS
 
@@ -20,10 +17,13 @@ With the end goal of being able to pick the two trinkets that best fit your play
 
 -  Removing Trinket I does not automatically move Trinket II into its place.
 
-- You cannot equip two copies of the same trinket at the same time.
+-  You cannot equip two copies of the same trinket at the same time.
+
+-  If using AzuEPI and having two trinkets equipped **right click** a trinket to replace the slot II
 
 -  Compatible with [AzuEpi](https://valheim.hexium.gg/mods/Azumatt/AzuExtendedPlayerInventory) not tested with other equipment managers could work but that would be on you to figure out.
    AzuEPI is an optional mod again this will function with the vanilla inventory.
+
 ## Default Passive Values
 
 Each vanilla trinket has been given a passive bonus.  The bonus is shown on the tooltip as well as compendium.  These are the default values and first pass
